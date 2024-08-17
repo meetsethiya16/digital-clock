@@ -20,7 +20,7 @@ function updateClock() {
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
   timeElement.innerHTML = `${hours}:${minutes}:${seconds}`;
-  periodElement.innerHTML = period;
+  // periodElement.innerHTML = period;
 }
 
 setInterval(updateClock, 1000);
