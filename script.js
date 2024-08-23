@@ -23,5 +23,5 @@ function updateClock() {
   // periodElement.innerHTML = period;
 }
 
-setInterval(updateClock, 1000);
+setInterval(updateClock, 500);
 updateClock(); // Initial call to set the time immediately
